@@ -1,0 +1,53 @@
+$color-white: #fff
+$background-color: #222
+
+.page-container
+  font-size: large
+  padding: 20px
+  text-align: center
+
+.product-list
+  list-style: none
+  margin: 0
+  padding: 0
+
+.product-list-item
+  padding: 5px
+
+  a
+    text-decoration: none
+
+
+.header
+  background-color: $background-color
+  color: $color-white
+  height: 160px
+  padding: 20px
+  text-align: center
+
+.header-logo
+  animation: header-logo-spin infinite 20s linear
+  height: 80px
+
+@keyframes header-logo-spin
+  from
+
+    transform: rotate(0deg)
+
+  to
+
+    transform: rotate(360deg)
+
+
+.header-title
+  font-size: 1.5em
+
+.header-link
+  color: $color-white
+  padding: 5px
+  text-decoration: none
+
+$header-link-line-color: #ebebeb
+
+.header-link-active
+  border-bottom: $header-link-line-color solid 2px
